@@ -2,7 +2,7 @@
 
 ## 配置
 
-macOS Big Sur 11.5 + OpenCore 0.7.1
+macOS Big Sur 11.5 + OpenCore 0.7.2
 
 | 组件 | 名称                                   |
 | ---- | -------------------------------------- |
@@ -37,7 +37,7 @@ macOS Big Sur 11.5 + OpenCore 0.7.1
 
 # English version
 
-macOS Big Sur 11.5 + OpenCore 0.7.1
+macOS Big Sur 11.5 + OpenCore 0.7.2
 
 | Component  | Brank                    |
 | ---------- | ------------------------ |
@@ -56,7 +56,7 @@ macOS Big Sur 11.5 + OpenCore 0.7.1
 - [x] Handoff and  AirDrop
 - [x] Windows 10 boot from OpenCore
 
-## OpenCore 0.7.1
+## OpenCore 0.7.2
 
 ![](images/15155239.png) 
 
@@ -74,7 +74,7 @@ macOS Big Sur 11.5 + OpenCore 0.7.1
 
 ## USB
 
-![](images/16254734361113.png)  
+![](images/USB.png)    
 
 ## 随航 Sidecar
 
@@ -98,9 +98,17 @@ macOS Big Sur 11.5 + OpenCore 0.7.1
 
 ## Geekbench5 GPU
 
+- Intel UHD 630
+
 ![](images/16254713631761.png)  
 
+- AMD RX 550 4GB
 
+![](images/rx550.png)
+
+- AMD RX 460 4GB
+
+![](images/rx460.png) 
 
 # 演示视频  Video presentation
 
@@ -109,6 +117,8 @@ macOS Big Sur 11.5 + OpenCore 0.7.1
 [你的黑苹果驱动到底有多完美了？附上本次设备和驱动](https://www.bilibili.com/video/BV15X4y1w7Wn)
 
 # 打赏 Reward
+
+因为黑苹果驱动定制是很耗费时间的事情，为了追求完美需要各种优化，生活不易，猫猫叹气，如果你恰巧财力雄厚的话，可以考虑打赏下本文哦，打赏情况国光我也会同步更新我的打赏列表的：[打赏列表 | 国光](https://www.sqlsec.com/dashang.html) 
 
 <table>
     <tr>
@@ -120,4 +130,3 @@ macOS Big Sur 11.5 + OpenCore 0.7.1
         </td>
     </tr>
 </table>
-
