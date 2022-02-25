@@ -2,15 +2,13 @@
 
 ## 配置
 
-macOS Big Sur 11.5 + OpenCore 0.7.2
-
-| 组件 | 名称                                   |
-| ---- | -------------------------------------- |
-| CPU  | i7 10700                               |
-| 主板 | 华擎 AsRock Z490 Steel Legend 钢铁传奇 |
-| 显卡 | Intel UHD Graphics 630                 |
-| 机型 | iMac 20,1                              |
-| 网卡 | BCM94360CD                             |
+| 组件 | 名称                                                        |
+| ---- | ----------------------------------------------------------- |
+| CPU  | i7-10700                                                    |
+| 主板 | 华擎 AsRock Z490 Steel Legend 钢铁传奇                      |
+| 显卡 | Intel UHD Graphics 630 + 蓝宝石 AMD Radeon RX 6600XT 白金版 |
+| 机型 | iMac 20,1                                                   |
+| 网卡 | BCM94360CD                                                  |
 
 ## BIOS
 
@@ -35,80 +33,11 @@ macOS Big Sur 11.5 + OpenCore 0.7.2
 - 「引导」-「闪速启动」-「关闭」
 - 「引导」-「CSM」-「关闭」
 
-# English version
-
-macOS Big Sur 11.5 + OpenCore 0.7.2
-
-| Component  | Brank                    |
-| ---------- | ------------------------ |
-| CPU        | i7 10700                 |
-| Motheboard | AsRock Z490 Steel Legend |
-| GPU        | Intel UHD Graphics 630   |
-| SMBIOS     | iMac 20,1                |
-| WiFi       | BCM94360CD               |
-
-# 驱动情况 What works
-
-- [x] All USB Ports (port mapping performed)
-- [x] All Sensors (CPU, GPU, NVME, SATA, FANS)
-- [x] SpeedStep / Sleep / Wake
-- [x] Wi-Fi and Bluetooth
-- [x] Handoff and  AirDrop
-- [x] Windows 10 boot from OpenCore
-
-## OpenCore 0.7.2
-
-![](images/15155239.png) 
-
-## 系统 OS
-
-![](images/16254707544590.png) 
-
-## CPU
-
-![](images/16254737406338.png) 
-
-## GPU 
-
-![](images/16254728268601.png) 
-
-## USB
-
-![](images/USB.png)    
-
-## 随航 Sidecar
-
-![](images/1626258281326.png) 
-
-## 接力 Handoff
-
-![](images/16262587097243.png) 
-
-## 短信 iMessage
-
-![](images/16254772281880.png)  
-
-## 隔空投送 AirDrop
-
-![](images/16262583708801.png) 
-
-## Geekbench5 CPU 
-
-![](images/16254708415897.png)  
-
 ## Geekbench5 GPU
 
-- Intel UHD 630
+蓝宝石 RX6600XT 白金版本，可以看出比正常高出不少分，这是为什么呢，这是因为 XXXXXX（比较长 懒得写了），总之说明 6000系列 macOS 驱动层面还是有很多优化空间的：
 
-![](images/16254713631761.png)  
-
-- AMD RX 550 4GB
-
-![](images/rx550.png)
-
-- AMD RX 460 4GB
-
-![](images/rx460.png) 
+ ![](imgs/image-20220225205522945.png) 
 
 # 演示视频  Video presentation
 
